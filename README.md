@@ -1,4 +1,4 @@
-# Create a CV with Bootstrap to conquer the world!
+# Create a CV with Bootstrap to conquer the World!
 
 ## Tutorial step by step:
 
