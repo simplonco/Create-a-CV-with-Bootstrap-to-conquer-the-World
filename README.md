@@ -1,9 +1,6 @@
-% A CV / Portfolio with Bootstrap to conquer the world!
-% Simplon - Promo 5
-% Week 1 - March 2015
+# A CV with Bootstrap to conquer the world!
 
-
-# Tutorial step by step:
+## Tutorial step by step:
 
 1) Create a web page containing the raw content of your resume.
 
@@ -30,19 +27,19 @@
 12) Complete your beautiful portfolio, you should arrive at this result: http://cihadturhan.com/ (at least).
 
 
-# Other online guides to create a web CV / Portfolio:
+## Other online guides to create a web CV / Portfolio:
 
 EN: https://www.smashingmagazine.com/2009/04/10-handy-tips-for-web-design-cvs-and-resumes/
 
 FR: http://guikprod.developpez.com/tutoriels/html5/bootstrap/creer-site-portfolio/
 
 
-# A sample starter template:
+## A sample starter template:
 
 https://github.com/danvine/bootstrap-resume-template
 
 
-# Inspirations of layout design:
+## Inspirations of layout design:
 
 Get inspired by these paid themes:
 
@@ -50,7 +47,7 @@ WrapBootstrap: https://wrapbootstrap.com/themes/resumes-cv
 BootstrapBay: http://bootstrapbay.com/themes/resume-cv
 
 
-# Technical resources:
+## Technical resources:
 
 Memento of HTML tags and CSS properties:
 
@@ -64,7 +61,7 @@ https://openclassrooms.com/courses/prenez-en-main-bootstrap/mise-en-route-8
 http://creativealive.com/wp-content/uploads/2014/01/bootstrap3-cheatsheet.pdf
 
 
-# Additional exercises if get bored:
+## Additional exercises if get bored:
 
 http://discourse.simplon.co/t/cours-sur-html-et-css/33/
 http://discourse.simplon.co/t/positionnement-des-elements-en-css/35/
