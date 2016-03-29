@@ -35,8 +35,8 @@
 
 ## A sample starter template:
 
-https://getbootstrap.com/examples/starter-template
-https://github.com/danvine/bootstrap-resume-template
+* https://getbootstrap.com/examples/starter-template
+* https://github.com/danvine/bootstrap-resume-template
 
 
 ## Inspirations of layout design:
