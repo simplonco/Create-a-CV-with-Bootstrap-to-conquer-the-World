@@ -8,7 +8,7 @@
 
 * Import bootstrap in the `<meta>` tag of your website (http://getbootstrap.com/).
 
-* Add a personal photo (`<img />` tag) and icons by category (you can use http://getbootstrap.com/components/#glyphicons).
+* Add a personal photo (`<img />` tag) and icons by category (you can use http://getbootstrap.com/components/#glyphicons or https://icomoon.io/).
 
 * Use multiple columns system to organize your content.
 
@@ -35,6 +35,7 @@
 
 ## A sample starter template:
 
+https://getbootstrap.com/examples/starter-template
 https://github.com/danvine/bootstrap-resume-template
 
 
