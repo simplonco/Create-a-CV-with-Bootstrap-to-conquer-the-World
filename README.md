@@ -12,19 +12,19 @@
 
 * Use multiple columns system to organize your content.
 
-* Have a tea or coffee as your preference, if you want cookies, steal those of Perrine.
+* Have a tea or coffee as your preference, if you want cookies :cookie:, steal those of Perrine.
 
-* Check if your site displays perfectly on mobile and tablet, if not then optimize it!
+* Check if your site displays perfectly on mobile and tablet :iphone:, if not then optimize it!
 
 * Create a navbar consist of different page's sections , use anchors links `<a href="#..."` to redirect to different categories.
 
-* Add links to your email address (`<a href="mailto:..."`) and Twitter / Linkedin profile (if you have one); then add a Facebook / Google+ like button!
+* Add links to your email address (`<a href="mailto:..."`) and Twitter / Linkedin profile (if you have one); then add a Facebook / Google+ like button :+1:!
 
 * Use the bootstrap carousel module; find examples of paralax effects.
 
 * Decorate with amazing CSS3 animations and integrate videos or musics!
 
-* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com or http://www.rleonardi.com/interactive-resume/ (at least).
+* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com or http://www.rleonardi.com/interactive-resume (at least).
 
 
 ## Other online guides to create a web CV / Portfolio:
