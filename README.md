@@ -6,9 +6,9 @@
 
 * Use the `<h1> .. <h6>`, `<p>` and `<div>` tag to organize your content and then `<em>`, `<strong>`; also maybe look at the `<section>` and `<article>` HTML5 tags!
 
-* Import bootstrap in the `<meta>` tag of your website (http://getbootstrap.com/).
+* Import bootstrap in the `<meta>` tag of your website (http://getbootstrap.com).
 
-* Add a personal photo (`<img />` tag) and icons by category (you can use http://getbootstrap.com/components/#glyphicons or https://icomoon.io/).
+* Add a personal photo (`<img />` tag) and icons by category (you can use http://getbootstrap.com/components/#glyphicons or https://icomoon.io).
 
 * Use multiple columns system to organize your content.
 
@@ -24,13 +24,13 @@
 
 * Decorate with amazing CSS3 animations and integrate videos or musics!
 
-* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com/ or http://www.rleonardi.com/interactive-resume/ (at least).
+* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com or http://www.rleonardi.com/interactive-resume/ (at least).
 
 
 ## Other online guides to create a web CV / Portfolio:
 
-* EN: https://www.smashingmagazine.com/2009/04/10-handy-tips-for-web-design-cvs-and-resumes/
-* FR: http://guikprod.developpez.com/tutoriels/html5/bootstrap/creer-site-portfolio/partie-1/
+* EN: https://www.smashingmagazine.com/2009/04/10-handy-tips-for-web-design-cvs-and-resumes
+* FR: http://guikprod.developpez.com/tutoriels/html5/bootstrap/creer-site-portfolio/partie-1
 
 
 ## A sample starter template:
