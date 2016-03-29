@@ -2,7 +2,7 @@
 
 ## Tutorial step by step:
 
-* Create a web page containing the raw content of your resume.
+* Create a web page consisit of raw contents of your resume.
 
 * Use the `<h1> .. <h6>`, `<p>` and `<div>` tag to organize your content and then `<em>`, `<strong>`; also maybe look at the `<section>` and `<article>` HTML5 tags!
 
@@ -10,21 +10,21 @@
 
 * Add a personal photo (`<img />` tag) and icons by category (you can use http://getbootstrap.com/components/#glyphicons).
 
-* Use multiple column system to organize your content.
+* Use multiple columns system to organize your content.
 
 * Have a tea or coffee as your preference, if you want cookies, steal those of Perrine.
 
-* Check if your site displays well on mobile and tablet, if not optimize it!
+* Check if your site displays perfectly on mobile and tablet, if not then optimize it!
 
-* Create a navbar containing different sections of your page, use anchors links `<a href="#..."` to redirect to different categories.
+* Create a navbar consist of different page's sections , use anchors links `<a href="#..."` to redirect to different categories.
 
 * Add links to your email address (`<a href="mailto:..."`) and Twitter / Linkedin profile (if you have one); then add a Facebook / Google+ like button!
 
-* Use the bootstrap carousel module; find examples of paralax effect.
+* Use the bootstrap carousel module; find examples of paralax effects.
 
 * Decorate with amazing CSS3 animations and integrate videos or musics!
 
-* Complete your beautiful portfolio, you should arrive at this result: http://cihadturhan.com/ (at least).
+* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com/ (at least).
 
 
 ## Other online guides to create a web CV / Portfolio:
