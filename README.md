@@ -18,11 +18,11 @@
 
 * Create a navbar consist of different page's sections , use anchors links `<a href="#..."` to redirect to different categories.
 
-* Add links to your email address (`<a href="mailto:..."`) and Twitter / Linkedin profile (if you have one); then add a Facebook / Google+ like button :+1:!
+* Add links to your email address (`<a href="mailto:..."`) :email: and Twitter / Linkedin profile (if you have one); then add a Facebook / Google+ like button :+1:!
 
 * Use the bootstrap carousel module; find examples of paralax effects.
 
-* Decorate with amazing CSS3 animations and integrate videos or musics!
+* Decorate with amazing CSS3 animations and integrate videos or musics :musical_note:!
 
 * Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com or http://www.rleonardi.com/interactive-resume (at least).
 
