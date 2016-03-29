@@ -30,7 +30,7 @@
 ## Other online guides to create a web CV / Portfolio:
 
 * EN: https://www.smashingmagazine.com/2009/04/10-handy-tips-for-web-design-cvs-and-resumes/
-* FR: http://guikprod.developpez.com/tutoriels/html5/bootstrap/creer-site-portfolio/
+* FR: http://guikprod.developpez.com/tutoriels/html5/bootstrap/creer-site-portfolio/partie-1/
 
 
 ## A sample starter template:
