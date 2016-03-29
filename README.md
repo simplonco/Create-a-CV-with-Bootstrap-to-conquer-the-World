@@ -24,7 +24,7 @@
 
 * Decorate with amazing CSS3 animations and integrate videos or musics!
 
-* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com/ (at least).
+* Complete your beautiful portfolio, you should finally get this result: http://cihadturhan.com/ or http://www.rleonardi.com/interactive-resume/ (at least).
 
 
 ## Other online guides to create a web CV / Portfolio:
