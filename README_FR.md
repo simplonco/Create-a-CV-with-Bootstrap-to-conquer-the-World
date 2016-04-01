@@ -68,4 +68,4 @@ Bootstrap :
 * http://discourse.simplon.co/t/challenges-du-mercredi/60/
 * http://discourse.simplon.co/t/les-challenges-additionnels/61
 
-Amusez vous!
+Amusez vous !
