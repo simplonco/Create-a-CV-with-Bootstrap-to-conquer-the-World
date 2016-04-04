@@ -1,0 +1,78 @@
+.upper {
+	 background: rgb(225,195,222);
+    margin: auto;
+    width: 40%;
+    border: 3px solid rgb(176,80,222);
+    padding: 10px;
+    text-align: center;
+}
+
+li.center {
+	position: absolute;
+	left: 45% ;
+	color: rgb(150,120,222);
+	font-size: 200% ;
+	
+}
+
+ul.navbar {
+    list-style-type: none; /*for hide the point in the list*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navbar li {
+    float: left;
+    
+}
+
+ul.navbar li:last-child {
+    border-right: none;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ul.Information {
+     list-style-type: none; /*for hide the point in the list*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.Information li a {
+    display: block;
+    color: #000;
+    padding: 50px 0 8px 16px;
+    text-decoration: none;
+}
+ul.Information li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.Information li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+p.details {
+	position: absolute;
+	left: 25% ;
+	margin: 40px;
+}
