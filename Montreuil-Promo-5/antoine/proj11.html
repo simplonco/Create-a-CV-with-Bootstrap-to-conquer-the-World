@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Antoine HAMOUI | Web Designer, Junior | hamoui.antoine@gmail.com</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/scrolling-nav.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script>
+    $(window).load(function() {
+      $(".bg_load").fadeOut(10000);
+      $(".wrapper").fadeOut(5000);
+    })
+  </script>
+
+  <script>
+    var vid = document.getElementById("bgvid");
+    var pauseButton = document.querySelector("#polina button");
+
+    function vidFade() {
+      vid.classList.add("stopfade");
+    }
+
+    vid.addEventListener('ended', function() {
+      // only functional if "loop" is removed
+      vid.pause();
+      // to capture IE10
+      vidFade();
+    });
+
+
+    pauseButton.addEventListener("click", function() {
+      vid.classList.toggle("stopfade");
+      if (vid.paused) {
+        vid.play();
+        pauseButton.innerHTML = "Pause";
+      } else {
+        vid.pause();
+        pauseButton.innerHTML = "Paused";
+      }
+    })
+  </script>
+
+</head>
+<style>
+  body {
+    margin: 0;
+    background: #000;
+  }
+
+  video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+
+  .stopfade {
+    opacity: .5;
+  }
+
+  #polina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight: 100;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+  }
+
+  #polina button {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    background: rgba(255, 255, 255, 0.23);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s background;
+  }
+
+  #polina button:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    padding: .5rem;
+    transition: .6s background;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 500px) {
+    div {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-device-width: 800px) {
+    html {
+      background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+      display: none;
+    }
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+  body {
+    background: #EEE;
+  }
+
+  .bg_load {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #3c3c3c;
+  }
+
+  .wrapper {
+    /* Size and position */
+    font-size: 25px;
+    /* 1em */
+    width: 8em;
+    height: 8em;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    /* Styles */
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1em dashed rgba(138, 189, 195, 0.5);
+    box-shadow: inset 0 0 2em rgba(255, 255, 255, 0.3), 0 0 0 0.7em rgba(255, 255, 255, 0.3);
+    animation: rota 3.5s linear infinite;
+    /* Font styles */
+    font-family: 'Racing Sans One', sans-serif;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 .04em rgba(255, 255, 255, 0.9);
+    line-height: 6em;
+  }
+
+  .wrapper:before,
+  .wrapper:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: inherit;
+    box-shadow: inset 0 0 2em rgba(255, 255, 255, 0.3);
+    border: 1em dashed;
+  }
+
+  .wrapper:before {
+    border-color: rgba(138, 189, 195, 0.2);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .wrapper:after {
+    border-color: rgba(138, 189, 195, 0.4);
+    top: 1em;
+    right: 1em;
+    bottom: 1em;
+    left: 1em;
+  }
+
+  .wrapper .inner {
+    width: 100%;
+    height: 100%;
+    animation: rota 3.5s linear reverse infinite;
+  }
+
+  .wrapper span {
+    display: inline-block;
+    animation: placeholder 1.5s ease-out infinite;
+  }
+
+  .wrapper span:nth-child(1) {
+    animation-name: loading-1;
+  }
+
+  .wrapper span:nth-child(2) {
+    animation-name: loading-2;
+  }
+
+  .wrapper span:nth-child(3) {
+    animation-name: loading-3;
+  }
+
+  .wrapper span:nth-child(4) {
+    animation-name: loading-4;
+  }
+
+  .wrapper span:nth-child(5) {
+    animation-name: loading-5;
+  }
+
+  .wrapper span:nth-child(6) {
+    animation-name: loading-6;
+  }
+
+  .wrapper span:nth-child(7) {
+    animation-name: loading-7;
+  }
+
+  @keyframes rota {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes loading-1 {
+    14.28% {
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes loading-2 {
+    28.57% {
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes loading-3 {
+    42.86% {
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes loading-4 {
+    57.14% {
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes loading-5 {
+    71.43% {
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes loading-6 {
+    85.71% {
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes loading-7 {
+    100% {
+      opacity: 0.3;
+    }
+  }
+
+  /*body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+  }*/
+
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6,
+  a {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    /*text-shadow: 2px 2px gray;*/
+    color: #333;
+  }
+  /*
+ * Override Bootstrap's default container.
+ */
+
+  @media (min-width: 1200px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /*
+ * Masthead for nav
+ */
+
+  .blog-masthead {
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+  }
+  /* Nav links */
+
+  .blog-nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #cdddeb;
+  }
+
+  .blog-nav-item:hover,
+  .blog-nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Active state gets a caret at the bottom */
+
+  .blog-nav .active {
+    color: #fff;
+  }
+
+  .blog-nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+  }
+  /*
+ * Blog name and description
+ */
+
+  .blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: normal;
+  }
+
+  .blog-description {
+    font-size: 20px;
+    color: #999;
+  }
+  /*
+ * Main column and sidebar layout
+ */
+
+  .blog-main {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  /* Sidebar modules for boxing content */
+
+  .sidebar-module {
+    padding: 15px;
+    margin: 0 -15px 15px;
+  }
+
+  .sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+
+  .sidebar-module-inset p:last-child,
+  .sidebar-module-inset ul:last-child,
+  .sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+  }
+  /* Pagination */
+
+  .pager {
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  .pager > li > a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+  }
+  /*
+ * Blog posts
+ */
+
+  .blog-post {
+    margin-bottom: 60px;
+  }
+
+  .blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+
+  .blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+  }
+  /*
+ * Footer
+ */
+
+  .blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  @keyframes example {
+    0% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: yellow;
+      left: -150px;
+      top: 0px;
+    }
+    50% {
+      background-color: blue;
+      left: -150px;
+      top: -150px;
+    }
+    75% {
+      background-color: green;
+      left: 0px;
+      top: -150px;
+    }
+    100% {
+      background-color: gray;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  /*p{
+    text-shadow: 2px 2px gray;
+  }*/
+</style>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <video autoplay poster="Meeting.png" id="bgvid" loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="Meeting.mp4" type="video/mp4">
+    <!-- <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/webm"> -->
+  </video>
+  <!-- <div id="polina">
+    <h1>ANTOINE</h1>
+    <p>filmed by Alexander Wagner 2011
+      <p><a href="//demosthenes.info/blog/777/Create-Fullscreen-HTML5-Page-Background-Video">original article</a>
+        <p>Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.</p>
+        <button>Pause</button>
+  </div> -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#profile">Profile</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#technical">Technical</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#experience">Experience</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#education">Education</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="profile" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="blog-header">
+              <h1 class="blog-title">Antoine HAMOUI</h1>
+              <p class="lead blog-description">Web Developer,</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="blog-post">
+              <h2 class="blog-post-title">profile</h2>
+              <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
+              <blockquote>
+                <p>Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.</p>
+              </blockquote>
+              <hr id="skills">
+
+            </div>
+            <!-- /.blog-post -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Skills</h2>
+
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <!-- <th>#</th> -->
+                  <th>
+                    <h4>Web Design</h4></th>
+                  <th>
+                    <h4>Interface Design</h4></th>
+                  <th>
+                    <h4>Project Direction</h4></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <!-- <th scope="row">1</th> -->
+                  <td>Assertively exploit wireless initiatives rather than synergistic core competencies.</td>
+                  <td>Credibly streamline mission-critical value with multifunctional functionalities.</td>
+                  <td>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</td>
+
+                </tr>
+              </tbody>
+            </table>
+            <hr id="technical">
+          </div>
+
+          <!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Technical</h2>
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <!-- <th scope="row">1</th> -->
+                  <td>HTML</td>
+                  <td>PHP</td>
+                  <td>OsX</td>
+                </tr>
+                <tr>
+                  <!-- <th scope="row">1</th> -->
+                  <td>CSS</td>
+                  <td>Jquery</td>
+                  <td>Windows</td>
+                </tr>
+                <tr>
+                  <!-- <th scope="row">1</th> -->
+                  <td>Javascript</td>
+                  <td>Ruby</td>
+                  <td>Linux</td>
+
+                </tr>
+              </tbody>
+            </table>
+            <hr id="experience">
+          </div>
+
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Experience</h2>
+
+            <blockquote>
+              <big class="pull-right">2007-2015</big>
+              <h2>Facebook</h2>
+              <h3>Senior Interface Designer</h3>
+              <p>Intrinsicly enable optimal core competencies through corporate relationships. Phosfluorescently implement worldwide vortals and client-focused imperatives. Conveniently initiate virtual paradigms and top-line convergence. </p>
+            </blockquote>
+            <hr>
+
+            <blockquote>
+              <big class="pull-right">2005-2007</big>
+              <h2>Apple Inc.</h2>
+              <h3>enior Interface Designer</h3>
+              <p>Progressively reconceptualize multifunctional "outside the box" thinking through inexpensive methods of empowerment. Compellingly morph extensive niche markets with mission-critical ideas. Phosfluorescently deliver bricks-and-clicks strategic
+                theme areas rather than scalable benefits. </p>
+            </blockquote>
+            <hr>
+            <blockquote>
+              <big class="pull-right">2002-2005</big>
+              <h2>Microsoft</h2>
+              <h3>Principal and Creative Lead</h3>
+              <p>Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
+                </p>
+            </blockquote>
+            <hr id="education">
+          </div>
+
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Education</h2>
+            <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
+            <h3>UNIVERSITE D’ALEP (Bac+5)</h3>
+            <p>Diplôme d'Ingénierie Informatique -  Elevé au grade d'ingénieur titulaire </br>
+              Spécialité / Informatique & Électricité / Issu du Syndicat de Génie à Alep</p>
+
+            <hr>
+
+          </div>
+
+          <!-- /.blog-post -->
+
+          <!--<nav>
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="#">Next</a></li>
+            </ul>
+          </nav>-->
+
+        </div>
+        <!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset" style="background-color: gray;
+                                                                  color: white;
+                                                                  position: relative;
+                                                                  animation-name: example;
+                                                                  animation-duration: 8s;">
+            <h4 style="color: white;">contact-info</h4>
+            <p><a href="mailto:hamoui.antoine@gmail.com"><span style="color: white; font-style: italic;">hamoui.antoine@gmail.com</span></a>
+              </br> +(33) 6 99 75 08 00</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>My Projects</h4>
+            <ol class="list-unstyled">
+              <li><a href="http://www.intergastronom.net/" target="_blank">Inter Gastronom</a></li>
+              <li><a href="http://www.khabbazgroup.com/" target="_blank">Khabbaz Group</a></li>
+              <li><a href="http://www.g1-sy.com/" target="_blank">Global One</a></li>
+              <li><a href="http://www.joudappliances.com/" target="_blank">Joud Appliances</a></li>
+              <li><a href="http://www.greentech.com.lb/" target="_blank">Green Tech</a></li>
+
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>How to find me</h4>
+            <ol class="list-unstyled">
+
+              <a href="https://plus.google.com/u/0/106675901143873660257/posts" target="_blank"><i class="fa fa-google-plus-square" style="font-size:36px; color:red;" ></a></i>
+              <a href="https://twitter.com/thamoui12" target="_blank"><i class="fa fa-twitter-square" style="font-size:36px; color:blue;" ></a></i>
+              <a href="https://github.com/thamoui" target="_blank"><i class="fa fa-git-square" style="font-size:36px; color:black;"></a></i>
+            </ol>
+          </div>
+        </div>
+        <!-- /.blog-sidebar -->
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>Antoine HAMOUI &mdash;<a href="mailto:hamoui.antoine@gmail.com"><span style="font-style: italic;">hamoui.antoine@gmail.com</span></a>&mdash; +(33) 6 99 75 08 00</p>
+      <p>
+        <a href="#page-top">Back to top</a>
+      </p>
+    </footer>
+    <div class="bg_load"></div>
+    <div class="wrapper">
+        <div class="inner">
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="http://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/jquery.easing.min.js"></script>
+    <script src="http://blackrockdigital.github.io/startbootstrap-scrolling-nav/js/scrolling-nav.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+</body>
+
+</html>
