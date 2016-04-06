@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mr Zaidi - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8">
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="headshot.png" alt="Alan Smith" />
+		</div>
+
+		<div id="name">
+			<h1 class="quickFade delayTwo">Syed Zeeshan Ali Zaidi</h1>
+		</div>
+
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li> <a href="mailto:zeshanalizaidi@gmail.com" target="_blank">zeshanalizaidi@gmail.com</a></li>
+				<li> <a href="http://www.Alizaidi.com">www.Alizaidi.com</a></li>
+				<li> +33659935362</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>DOB : 31/03/1982 <br> Father Name: Syed Zulfiqar Ali Zaidi<br>Country : Pakistan</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Job Title at Company</h2>
+					<p class="subDetails">April 2011 - Present</p>
+					<p>.</p>
+				</article>
+
+				<article>
+					<h2>Job Title at Company</h2>
+					<p class="subDetails">Janruary 2007 - March 2011</p>
+					<p>kjjkh</p>
+				</article>
+
+				<article>
+					<h2>Job Title at Company</h2>
+					<p class="subDetails">October 2004 - December 2006</p>
+					<p>jkhkjhk</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Community Journalism</li>
+					<li>Columnist</li>
+					<li>Multimedia Reporting</li>
+					<li>Proofreading/ Editing</li>
+					<li>Research and Fact-Checking</li>
+					<li>Feature Writing</li>
+					<li>News Writing</li>
+					<li>Proofreading/ Editing</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>University</h2>
+					<p class="subDetails">Qualification</p>
+					<p>Bachelor in Sciences (4 Years) Quaid-i-Azam University, Islamabad , Pakistan</p>
+				</article>
+
+				<article>
+					<h2>College</h2>
+					<p class="subDetails">Qualification</p>
+					<p>F.Sc Pre Medical (2 years) Islamabad Model College For Boys, G-10/4, Pakistan<br>S.S.C Science Group (2 Years)Islamabad Model College For Boys, G-10/4, Pakistan  </p>
+				</article>
+			</div>
+			<div class="clear"></div>
+</section>
+
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
