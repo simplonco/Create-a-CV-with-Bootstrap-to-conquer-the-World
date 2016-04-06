@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Abdulkader KALAAJI | Some of done </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="normale.css">
+<link rel="stylesheet" type="text/css" media="screen" href="cv.css">
+</head>
+<body>
+<!--<a id="cssda" href="http://www.cssdesignawards.com/css-web-design-award-nominees.php" title="Css Design Awards" target="_blank">CSS Design Awards</a>
+<a id="csswinner" href="http://www.csswinner.com/details/simone-marcarino/3087/" target="_blank">CSS Winner</a>-->
+<div id="wrapper">
+    <header>
+        <a href="" id="logo" title="Yes, press me!">Abdulkader KALAAJI</a>
+        <h1 class="Education">Education</h1>
+        <h1 class="Experince">Experince</h1>
+    </header><!--header-->
+
+    <div class="container">
+      <button type="button" class="btn btn-default btn-lg" id="myBtn">Experince</button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" style="padding:35px 50px;">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4><span class="glyphicon glyphicon-lock"></span> Experince</h4>
+            </div>
+            <div class="modal-body" style="padding:40px 50px;">
+              <form role="form">
+                <div class="form-group">
+                  <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                  <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                  <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" checked>Remember me</label>
+                </div>
+                  <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Experince</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+              <p>Not a member? <a href="#">Sign Up</a></p>
+              <p>Forgot <a href="#">Password?</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <section>
+        <nav>
+            <a class="goTo" id="mail" data-position="t25 8" title="email-me!" href="https://mail.google.com/mail/#inbox"><span>abdulkader.kalaaji@gmail.com</span></a>
+            <a class="goTo" id="facebook" data-position="t173 8" title="Check out my shots" href="https://www.facebook.com/adora.jone"><span>facebook</span></a>
+            <a class="goTo" id="twitter" data-position="t321 8" title="@AdoraAdora4 on twitter" href="https://twitter.com/AdoraAdora4"><span>Twitter</span></a>
+            <a class="goTo" id="aboutme" data-position="t100 120" title="About- me profile" href="https://about.me/abdulkaderkalaaji"><span>about me</span></a>
+            <a class="goTo" id="linkedin" data-position="t247 120" title="My linkedin profile" href="https://www.linkedin.com/"><span>Linkedin</span></a>
+        </nav><!--nav-->
+        <div id="canvas"></div>
+    </section><!--content-->
+
+    <footer>
+        <p>Abdulkader KALAAJI<br/>© 2016</p>
+    </footer><!--footer-->
+</div>
+<div id="grid"></div>
+
+<!-- JS -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://simonemarcarino.com/js/modernizr.min.js"></script>
+<script type="text/javascript" src="http://simonemarcarino.com/js/raphael-min.js"></script>
+<script type="text/javascript" src="http://simonemarcarino.com/js/sm.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33194126-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  $(document).ready(function(){
+      $("#myBtn").click(function(){
+          $("#myModal").modal();
+      });
+  });
+</script>
+</body>
+</html>

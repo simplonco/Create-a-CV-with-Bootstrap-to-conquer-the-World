@@ -1,0 +1,359 @@
+@charset "UTF-8";
+/*TAG HTML5 BLOCK*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/*BODY*/
+html{
+    -webkit-tap-highlight-color:transparent;
+}
+body {
+	min-height:100%;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+    -webkit-transition: all 1000ms ease-in-out 0s;
+    -moz-transition: all 1000ms ease-in-out 0s;
+    -o-transition: all 1000ms ease-in-out 0s;
+    -ms-transition: all 1000ms ease-in-out 0s;
+    transition: all 1000ms ease-in-out 0s;
+}
+
+#backstretch{
+    display: none;
+}
+/*LINK*/
+a,
+a:link,
+a:active,
+a:visited {
+	color: #000;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #f00;
+	text-decoration: none;
+}
+/*TYPOGRAPHY*/
+h1{
+    font-size: 1.2em;
+    font-family: 'Lato';
+    position: absolute;
+    width: 141px;
+    text-align: center;
+    top: 160px;
+    z-index: 20;
+    font-weight: normal;
+}
+
+.Education{
+    left: 100px;
+    font-size: 30px;
+    color: black;
+}
+.Experince{
+    right: 100px;
+    font-size: 30px;
+    color: black;
+}
+
+/*BROWSER SELECT*/
+::select {
+   background:#000;
+   color:#fff;
+}
+::-moz-selection {
+    background:#000;
+    color:#fff;
+}
+/*GRID*/
+#grid{
+    min-height: 840px;
+    position: absolute;
+    top: -240px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('http://simonemarcarino.com/img/hex_grid.png') repeat center top;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -moz-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    -ms-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+}
+/*WRAPPER*/
+#wrapper{
+     height: 536px;
+     width: 490px;
+     margin: 26px auto 0;
+     position: relative;
+     z-index: 100;
+     -webkit-transition: all 500ms ease-in-out 0s;
+     -moz-transition: all 500ms ease-in-out 0s;
+     -o-transition: all 500ms ease-in-out 0s;
+     -ms-transition: all 500ms ease-in-out 0s;
+     transition: all 500ms ease-in-out 0s;
+}
+
+#canvas{
+    position: absolute;
+    top: 210px;
+    left: 0;
+}
+
+a#logo{
+    height: 134px;
+    width: 134px;
+    background: url('b.png') no-repeat center top;
+    position: absolute;
+    top: 0;
+    left: 178px;
+    text-indent: 100%;
+   	white-space: nowrap;
+   	overflow: hidden;
+   	z-index: 20;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -moz-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    -ms-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+    margin-top: 445px;
+}
+
+#logo:hover{
+    opacity: 0.2;
+}
+
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+nav{
+    width: 490px;
+    height: 265px;
+    position: absolute;
+    top: 210px;
+    left: 0;
+    z-index: 100;
+}
+
+nav a{
+    position: absolute;
+    text-indent: -2000px;
+    white-space: nowrap;
+   	width: 144px;
+   	height: 72px;
+   	line-height: 72px;
+   	display: block;
+   	background-position: center center;
+   	background-repeat: no-repeat;
+}
+
+nav a span:before, nav a span:after{
+    content: "";
+    position: absolute;
+    left: 33px;
+    width: 78px;
+    height: 57px;
+    -webkit-transform: rotate(157deg) skew(43.5deg);
+    -moz-transform: rotate(157deg) skew(43.5deg);
+    -o-transform: rotate(157deg) skew(43.5deg);
+    -ms-transform: rotate(157deg) skew(43.5deg);
+    transform: rotate(157deg) skew(43.5deg);
+}
+
+nav a span:before{
+    top: -30px;
+}
+
+nav a span:after{
+    bottom: -28px;
+}
+
+#mail{
+    background-image: url('c.png');
+    left: 25px;
+    top: 44px;
+}
+#facebook{
+    background-image: url('f.png');
+    left: 173px;
+    top: 44px;
+}
+#twitter{
+    background-image: url('http://simonemarcarino.com/img/icon_twitter.png');
+    left: 321px;
+    top: 44px;
+}
+#forrst{
+    background-image: url('http://simonemarcarino.com/img/icon_forrst.png');
+    left: 99px;
+    top: 155px;
+}
+#zerply{
+    background-image: url('http://simonemarcarino.com/img/icon_zerply.png');
+    left: 247px;
+    top: 155px;
+}
+#aboutme{
+    background-image: url('http://simonemarcarino.com/img/icon_codepen.png');
+    left: 99px;
+    top: 155px;
+}
+#linkedin{
+    background-image: url('http://simonemarcarino.com/img/icon_linkedin.png');
+    left: 247px;
+    top: 155px;
+}
+/*FOOTER*/
+footer{
+    position: absolute;
+    width: 133px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -66px;
+    text-align: center;
+    font-size: 1.1em;
+    font-size: 20px;
+    margin-bottom: 400px;
+}
+
+/*CSS AWARDS*/
+#cssda {
+    background: url('http://simonemarcarino.com/img/css-design-award-nominee-dark-vertical.png') repeat scroll 0 0 transparent;
+    display: block;
+    height: 164px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    width: 69px;
+    z-index: 100;
+}
+
+#csswinner {
+    background: url('http://simonemarcarino.com/img/nominee-black-right.png') repeat scroll 0 0 transparent;
+    display: block;
+    height: 59px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 81px;
+    z-index: 100;
+}
+/*MEDIA QUERY*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body{
+        overflow: hidden;
+        height: 480px;
+    }
+    #logo:hover{
+        opacity: 1;
+    }
+}
+@media only screen
+and (min-width : 1280px) {
+    #grid{
+        top: -200px;
+    }
+    #wrapper{
+         margin: 66px auto 0;
+    }
+}
+@media only screen
+and (min-width : 1440px) {
+    #grid{
+        top: -162px;
+    }
+    #wrapper{
+         margin: 104px auto 0;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    #logo:hover{
+        opacity: 1;
+    }
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    #grid{
+        top: -220px;
+    }
+    #wrapper{
+         margin: 46px auto 0;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    #grid{
+        top: -102px;
+    }
+    #wrapper{
+         margin: 164px auto 0;
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	a#logo{
+	    background: url('http://simonemarcarino.com/img/logo_sm@2x.png') no-repeat center top;
+	    background-size: 134px 134px;
+	}
+	#mail {
+		background-image: url('http://simonemarcarino.com/img/icon_mail@2x.png');
+		background-size: 25px 25px;
+	}
+	#dribbble {
+		background-image: url('http://simonemarcarino.com/img/icon_dribbble@2x.png');
+		background-size: 25px 25px;
+	}
+	#twitter {
+		background-image: url('http://simonemarcarino.com/img/icon_twitter@2x.png');
+		background-size: 25px 25px;
+	}
+	#forrst {
+		background-image: url('http://simonemarcarino.com/img/icon_forrst@2x.png');
+		background-size: 25px 25px;
+	}
+	#zerply {
+		background-image: url('http://simonemarcarino.com/img/icon_zerply@2x.png');
+		background-size: 25px 25px;
+	}
+    #codepen {
+        background-image: url('http://simonemarcarino.com/img/icon_codepen@2x.png');
+        background-size: 25px 25px;
+    }
+    #linkedin {
+        background-image: url('http://simonemarcarino.com/img/icon_linkedin@2x.png');
+        background-size: 25px 25px;
+    }
+
+}
