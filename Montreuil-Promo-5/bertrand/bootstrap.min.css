@@ -1,0 +1,9 @@
+body {
+  padding-bottom: 40px;
+  color:#0000F;
+  background-color:#FF0000;
+}
+p.ex {
+    height: 300px;
+    width: 700px;
+}
