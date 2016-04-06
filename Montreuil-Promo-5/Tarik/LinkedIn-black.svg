@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="40px" viewBox="0 0 44 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>LinkedIn-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Black" sketch:type="MSArtboardGroup" transform="translate(-702.000000, -305.000000)" fill="#0B0B0A">
+            <g id="Line-2" sketch:type="MSLayerGroup" transform="translate(201.000000, 300.000000)">
+                <path d="M545,45 L535.2754,45 L535.2754,30.9384005 C535.2754,27.257796 533.754233,24.7451495 530.409219,24.7451495 C527.850659,24.7451495 526.427799,26.4407377 525.765522,28.0748543 C525.517168,28.6613946 525.555974,29.478453 525.555974,30.2955113 L525.555974,45 L515.921919,45 C515.921919,45 516.046096,20.0912467 515.921919,17.8270474 L525.555974,17.8270474 L525.555974,22.0916309 C526.125118,20.2269962 529.203669,17.5657937 534.116416,17.5657937 C540.21143,17.5657937 545,21.4743549 545,29.8908241 L545,45 L545,45 Z M506.17921,14.4281872 L506.117121,14.4281872 C503.0127,14.4281872 501,12.3509637 501,9.71793558 C501,7.03368124 503.072201,5 506.238711,5 C509.402634,5 511.348071,7.02855862 511.41016,9.71025165 C511.41016,12.3432798 509.402634,14.4281872 506.17921,14.4281872 L506.17921,14.4281872 L506.17921,14.4281872 Z M502.109831,17.8270474 L510.685795,17.8270474 L510.685795,45 L502.109831,45 L502.109831,17.8270474 L502.109831,17.8270474 Z" id="LinkedIn" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

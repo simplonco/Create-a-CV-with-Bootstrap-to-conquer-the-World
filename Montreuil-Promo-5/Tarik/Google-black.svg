@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="49px" viewBox="0 0 48 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Google-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Black" sketch:type="MSArtboardGroup" transform="translate(-400.000000, -899.000000)" fill="#0B0B0A">
+            <g id="Line-8" sketch:type="MSLayerGroup" transform="translate(205.000000, 898.000000)">
+                <path d="M219.337382,20.6485149 L219.337382,30.3514851 C219.337382,30.3514851 228.687756,30.3388713 232.49499,30.3388713 C230.4333,36.6290644 227.227513,40.0544554 219.337382,40.0544554 C211.352552,40.0544554 205.120495,33.5381832 205.120495,25.5 C205.120495,17.4618168 211.352552,10.9455446 219.337382,10.9455446 C223.559074,10.9455446 226.285584,12.4393168 228.786551,14.5213317 C230.788481,12.5060248 230.621252,12.2188168 235.714512,7.37679208 C231.390892,3.41506931 225.644378,1 219.337382,1 C205.896159,1 195,11.9689653 195,25.5 C195,39.0307921 205.896159,50 219.337382,50 C239.428252,50 244.338861,32.3891089 242.710907,20.6485149 L219.337382,20.6485149 L219.337382,20.6485149 Z" id="Google" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
