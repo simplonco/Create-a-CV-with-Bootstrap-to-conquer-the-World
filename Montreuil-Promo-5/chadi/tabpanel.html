@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tabpanel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <div>TODO  chadi</div>
+        <div class=" container">
+            <div id="content">
+                <ul id="tabs" class="nav nav-tabs"  role="tablist" data-tabs="tabs">
+                    <li role="presentation" class="active"><a href="#red" data-toggle="tab">Red</a></li>
+                    <li role="presentation"><a href="#orange" data-toggle="tab">Orange</a></li>
+                    <li role="presentation"><a href="#yellow" data-toggle="tab">Yellow</a></li>
+                    <li role="presentation"><a href="#green" data-toggle="tab">Green</a></li>
+                    <li role="presentation"><a href="#blue" data-toggle="tab">Blue</a></li>
+                </ul>
+                <div id="my-tab-content" class="tab-content">
+                    <div class="tab-pane active" id="red">
+                        <h1>Red</h1>
+                        <p>red red red red red red</p>
+                    </div>
+                    <div  class="tab-pane fade" role="tabpanel" id="orange" >
+                        <h1>Orange</h1>
+                        <p>orange orange orange orange orange</p>
+                    </div>
+                    <div class="tab-pane" id="yellow">
+                        <h1>Yellow</h1>
+                        <p>yellow yellow yellow yellow yellow</p>
+                    </div>
+                    <div class="tab-pane" id="green">
+                        <h1>Green</h1>
+                        <p>green green green green green</p>
+                    </div>
+                    <div class="tab-pane" id="blue">
+                        <h1>Blue</h1>
+                        <p>blue blue blue blue blue</p>
+                    </div>
+                </div>
+
+            </div>
+             <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>    
+
+        </div>
+    </body>
+</html>
