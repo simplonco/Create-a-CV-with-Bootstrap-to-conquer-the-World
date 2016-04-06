@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Instagram-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Black" sketch:type="MSArtboardGroup" transform="translate(-500.000000, -200.000000)" fill="#0B0B0A">
+            <g id="Line-1" sketch:type="MSLayerGroup" transform="translate(200.000000, 200.000000)">
+                <path d="M342,43.5 L306,43.5 C305.172,43.5 304.5,42.828 304.5,42 L304.5,19.5 L310.5,19.5 C309.7185,20.625 309.4545,22.7235 309.4545,24.0555 C309.4545,32.088 316.005,38.6235 324.0555,38.6235 C332.1075,38.6235 338.658,32.088 338.658,24.0555 C338.658,22.7235 338.469,20.6565 337.5,19.5 L343.5,19.5 L343.5,42 C343.5,42.828 342.828,43.5 342,43.5 M324.0555,14.847 C329.154,14.847 333.2865,18.9705 333.2865,24.0555 C333.2865,29.142 329.154,33.2655 324.0555,33.2655 C318.9585,33.2655 314.826,29.142 314.826,24.0555 C314.826,18.9705 318.9585,14.847 324.0555,14.847 M336,6 L340.5,6 C341.328,6 342,6.672 342,7.5 L342,12 C342,12.828 341.328,13.5 340.5,13.5 L336,13.5 C335.172,13.5 334.5,12.828 334.5,12 L334.5,7.5 C334.5,6.672 335.172,6 336,6 M342.294,0 L305.706,0 C302.5545,0 300,2.5485 300,5.6925 L300,42.3075 C300,45.4515 302.5545,48 305.706,48 L342.294,48 C345.4455,48 348,45.4515 348,42.3075 L348,5.6925 C348,2.5485 345.4455,0 342.294,0" id="Instagram" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
