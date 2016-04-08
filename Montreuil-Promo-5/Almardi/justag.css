@@ -1,0 +1,26 @@
+.header{
+  height: 80px;
+  background-color: pink;
+  text-align: center;
+}
+.navigation{
+  width: 30%;
+  background-color: green;
+  height: 400px;
+  float: left;
+}
+.content{
+  width: 70%;
+  background-color:red;
+  height: 400px;
+  float: right;
+}
+.section{
+  background-color: #f0f0ff;
+  height: 200px;
+}
+.footer{
+  height: 60px;
+  background-color: gray;
+  clear: both;
+}
