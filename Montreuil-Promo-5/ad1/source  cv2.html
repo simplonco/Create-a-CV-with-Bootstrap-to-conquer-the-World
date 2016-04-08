@@ -17,12 +17,13 @@
 <div id="wrapper">
     <header>
         <a href="" id="logo" title="Yes, press me!">Abdulkader KALAAJI</a>
-        <!--<h1 class="Education"><a href="#Education">Education</a></h1>-->
-        <!--<h1 class="Experince"><a href="#Experince">Experince</a></h1>-->
+        <h1 class="Education">Education</h1>
+        <h1 class="Experince">Experince</h1>
     </header><!--header-->
 
     <div class="container">
-      <!--<button type="button" class="btn btn-default btn-lg" id="myBtn">Experince</button>-->
+      <button type="button" class="btn btn-default btn-lg" id="myBtn">Experince</button>
+
       <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
@@ -59,45 +60,20 @@
         </div>
       </div>
     </div>
-      <button id="Education"style="width: 90px;height: 90px;margin-top:20px;margin-left: 50px;"><span style="font-size: 15px;color:blue;">Education</span></button>
-            <button id="Experince"style="width: 90px;height: 90px;margin-top:20px;margin-left: 200px;"><span style="font-size: 15px;color:blue;">Experince</span></button>
-    <dialog id="favDialog">
-      <form method="dialog"style="si">
-        <section>
-          <p style="font-size:20px;">2014 – 2016:French-German Centre of Touraine German Language Certification B1<br>
-             2013 – 2014:Polytechnic of Tours University France Master's degree in Materials Science - Specialist: Electronic and Mechanic<br>
-             2002 – 2007:Damascus University Bachelor Degree in Mechanical Engineering (BAC+5)</p>
-        </section>
-        <menu>
-          <button id="cancel" type="reset">Back</button>
-        </menu>
-      </form>
-    </dialog>
-    <dialog id="favDialog2">
-      <form method="dialog"style="si">
-        <section >
-          <p style="font-size:20px;"> 2009-2013   TOYOTA CO – Service clientèle Technicien après vente automobile <br>
-            Management ,réception de la clientèle et voitures accidentées ,estimation et validation des dommages et des coûts de réparations,suivi de la réparation dans la chaine de production<br>
-            2007-2009   SIAMCO CO - Service de planification et de production                                          Responsable qualité<br>
-            Planification de la production,Contrôle des processus de production,contrôle de la matrice tâches/temps,suivi de la production,mise en place des solutions pour l’amélioration de la qualité</p>
-        </section>
-        <menu>
-          <button id="cancel1" type="reset">Back</button>
-        </menu>
-      </form>
-    </dialog>
+
     <section>
         <nav>
-            <a class="goTo" id="mail" data-position="t25 8" title="email-me!" href="https://mail.google.com/mail/#inbox" target="_blank"><span>abdulkader.kalaaji@gmail.com</span></a>
-            <a class="goTo" id="facebook" data-position="t173 8" title="Check out my shots" href="https://www.facebook.com/adora.jone"target="_blank"><span>facebook</span></a>
-            <a class="goTo" id="twitter" data-position="t321 8" title="@AdoraAdora4 on twitter" href="https://twitter.com/AdoraAdora4"target="_blank"><span>Twitter</span></a>
-            <a class="goTo" id="aboutme" data-position="t100 120" title="About- me profile" href="https://about.me/abdulkaderkalaaji"target="_blank"><span>about me</span></a>
-            <a class="goTo" id="linkedin" data-position="t247 120" title="My linkedin profile" href="https://www.linkedin.com/"target="_blank"><span>Linkedin</span></a>
+            <a class="goTo" id="mail" data-position="t25 8" title="email-me!" href="https://mail.google.com/mail/#inbox"><span>abdulkader.kalaaji@gmail.com</span></a>
+            <a class="goTo" id="facebook" data-position="t173 8" title="Check out my shots" href="https://www.facebook.com/adora.jone"><span>facebook</span></a>
+            <a class="goTo" id="twitter" data-position="t321 8" title="@AdoraAdora4 on twitter" href="https://twitter.com/AdoraAdora4"><span>Twitter</span></a>
+            <a class="goTo" id="aboutme" data-position="t100 120" title="About- me profile" href="https://about.me/abdulkaderkalaaji"><span>about me</span></a>
+            <a class="goTo" id="linkedin" data-position="t247 120" title="My linkedin profile" href="https://www.linkedin.com/"><span>Linkedin</span></a>
         </nav><!--nav-->
         <div id="canvas"></div>
     </section><!--content-->
+
     <footer>
-        <p><span style="color:blue;">Abdulkader KALAAJI<br/>© 2016</span></p>
+        <p>Abdulkader KALAAJI<br/>© 2016</p>
     </footer><!--footer-->
 </div>
 <div id="grid"></div>
@@ -123,43 +99,6 @@
           $("#myModal").modal();
       });
   });
-</script>
-<script>
-  (function() {
-    var updateButton = document.getElementById('Education');
-    var cancelButton = document.getElementById('cancel');
-    var favDialog = document.getElementById('favDialog');
-
-    // Update button opens a modal dialog
-    updateButton.addEventListener('click', function() {
-      favDialog.showModal();
-    });
-
-    // Form cancel button closes the dialog box
-    cancelButton.addEventListener('click', function() {
-      favDialog.close();
-    });
-
-  })();
-</script>
-
-<script>
-  (function() {
-    var updateButton = document.getElementById('Experince');
-    var cancelButton = document.getElementById('cancel1');
-    var favDialog2 = document.getElementById('favDialog2');
-
-    // Update button opens a modal dialog
-    updateButton.addEventListener('click', function() {
-      favDialog2.showModal();
-    });
-
-    // Form cancel button closes the dialog box
-    cancelButton.addEventListener('click', function() {
-      favDialog2.close();
-    });
-
-  })();
 </script>
 </body>
 </html>
