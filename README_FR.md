@@ -66,6 +66,6 @@ Bootstrap :
 * <http://discourse.simplon.co/t/cours-sur-html-et-css/33/>
 * <http://discourse.simplon.co/t/positionnement-des-elements-en-css/35/>
 * <http://discourse.simplon.co/t/challenges-du-mercredi/60/>
-* <http://discourse.simplon.co/t/les-challenges-additionnels/61>
+* <http://discourse.simplon.co/t/les-challenges-additionnels/61/>
 
 Amusez vous !
