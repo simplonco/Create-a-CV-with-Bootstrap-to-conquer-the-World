@@ -31,6 +31,7 @@
 
 * EN : <https://www.smashingmagazine.com/2009/04/10-handy-tips-for-web-design-cvs-and-resumes/>
 * FR : <http://guikprod.developpez.com/tutoriels/html5/bootstrap/creer-site-portfolio/partie-1>
+* FR : <http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/>
 
 
 ## Des templates d'exemple pour démarrer :
@@ -59,13 +60,5 @@ Bootstrap :
 * <http://simplonline.co/dashboard/consignes/75-consignes-promo-4/357-s01e02-0-bootstrap>
 * <https://openclassrooms.com/courses/prenez-en-main-bootstrap/mise-en-route-8>
 * <http://creativealive.com/wp-content/uploads/2014/01/bootstrap3-cheatsheet.pdf>
-
-
-# Des exercices supplémentaires pour pas s'ennuyer (on ne sait jamais) :
-
-* <http://discourse.simplon.co/t/cours-sur-html-et-css/33/>
-* <http://discourse.simplon.co/t/positionnement-des-elements-en-css/35/>
-* <http://discourse.simplon.co/t/challenges-du-mercredi/60/>
-* <http://discourse.simplon.co/t/les-challenges-additionnels/61/>
 
 Amusez vous !
